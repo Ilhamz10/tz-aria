@@ -1,0 +1,13 @@
+.info {
+    display: grid;
+    gap: 2px;
+}
+
+.infoTitle {
+    color: var(--main-text-color);
+    text-transform: uppercase;
+}
+
+.infoText {
+    color: var(--transparent-text-color);
+}

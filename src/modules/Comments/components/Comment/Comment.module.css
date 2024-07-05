@@ -1,0 +1,40 @@
+.commentCont {
+    padding: 16px 20px;
+    width: 100%;
+    max-width: 288px;
+    display: grid;
+    gap: 16px;
+    background: #302D2D57;
+    border-radius: 20px;
+    backdrop-filter: blur(30px);
+}
+
+.commentHeader {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.userName {
+    text-transform: uppercase;
+    color: var(--main-text-color);
+}
+
+.profileName {
+    color: var(--secondary-text-color);
+}
+
+.userInfo {
+    display: grid;
+    gap: 2px;
+}
+
+.comment {
+    color: var(--main-text-color);
+}
+
+.userPhoto {
+    width: 48px;
+    height: 48px;
+    border-radius: 99px;
+}

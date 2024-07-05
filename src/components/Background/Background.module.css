@@ -1,0 +1,48 @@
+.backgroundIcon {
+	position: absolute;
+	z-index: -1;
+	width: 312px;
+}
+
+.bitcoin {
+	top: 0;
+	right: 0;
+	height: 352px;
+}
+
+.litecoin {
+	top: 277px;
+	right: 220px;
+	height: 324px;
+}
+
+.ethereum {
+	height: 408px;
+	top: 508px;
+	right: 0;
+}
+
+@media (max-width: 600px) {
+	.backgroundIcon {
+		width: 136px;
+	}
+
+	.bitcoin {
+		top: 0;
+		right: 0;
+		height: 188px;
+	}
+
+	.litecoin {
+		top: 70px;
+		left: 0;
+		width: 140px;
+		height: 160px;
+	}
+
+	.ethereum {
+		height: 214px;
+		top: 203px;
+		right: 0;
+	}
+}

@@ -1,0 +1,17 @@
+.InfoCont {
+	display: flex;
+	gap: 126px;
+}
+
+@media (max-width: 1140px) {
+	.InfoCont {
+		gap: 70px;
+	}
+}
+
+@media (max-width: 600px) {
+    .InfoCont {
+        justify-content: space-between;
+        gap: 20px;
+    }
+}

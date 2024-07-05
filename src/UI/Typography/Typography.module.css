@@ -1,0 +1,97 @@
+.text {
+    position: relative;
+    z-index: 2;
+}
+
+.xxs {
+    font-size: 12px;
+    line-height: 12px;
+}
+
+.xs {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.sm {
+    font-size: 18px;
+    line-height: 20.7px;
+}
+
+.md {
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.lg {
+    font-size: 28px;
+    line-height: 28px;
+}
+
+.xl {
+    font-size: 34px;
+    line-height: 40.8px;
+}
+
+.xxl {
+    font-size: 48px;
+    line-height: 48px;
+}
+
+.xxxl {
+    font-size: 84px;
+    line-height: 100.8px;
+}
+
+.regular {
+    font-weight: 400;
+}
+
+.medium {
+    font-weight: 500;
+}
+
+.semiBold {
+    font-weight: 600;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+@media (max-width: 600px) {
+    .xxs {
+        font-size: 10px;
+        line-height: 10px;
+    }
+    
+    .sm {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    
+    .md {
+        font-size: 14px;
+        line-height: 14px;
+    }
+    
+    .lg {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    
+    .xl {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    
+    .xxl {
+        font-size: 28px;
+        line-height: 28px;
+    }
+    
+    .xxxl {
+        font-size: 40px;
+        line-height: 43.2px;
+    }
+}
